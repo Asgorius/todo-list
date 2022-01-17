@@ -1,0 +1,18 @@
+ul {
+    padding: 0;
+
+    .container-todo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid #000;
+        height: auto;
+        list-style: none;
+        padding: 1rem;
+        
+        h3, p, mat-checkbox {
+            margin: 0;
+        }
+    }
+
+}

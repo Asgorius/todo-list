@@ -1,0 +1,7 @@
+<ul role="list">
+    <li class="container-todo" *ngFor="let todo of todos$">
+        <h3>{{ todo.titre }}</h3>
+        <p>Description:<br> {{ todo.description }}</p>
+        <mat-checkbox [(ngModel)]="todo.completed" class="example-margin"></mat-checkbox>
+    </li>
+</ul>
